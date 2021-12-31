@@ -13,5 +13,7 @@
 // __proto__都指向Object.prototype, 因为原型对象本身是普通对象。
 
 Object.prototype.__proto__ = null;
+
 Array.prototype.__proto__ = Object.prototype;
+
 Foo.prototype.__proto__ = Object.prototype;
