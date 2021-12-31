@@ -140,7 +140,6 @@ console.log(person.constructor === Person); // true
 
 // 3、真的是继承吗？
 /*
-
     “每一个对象都会从原型‘继承’属性”，
     实际上，继承是一个十分具有迷惑性的说法，引用《你不知道的JavaScript》中的话，就是：
 
