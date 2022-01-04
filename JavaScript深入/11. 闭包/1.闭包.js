@@ -16,7 +16,7 @@ function getOuter1() {
     function getDate(str) {
         console.log(str + date);  //访问外部的date
     }
-    return getDate('今天是：'); //"今天是：815"
+    return getDate('今天是：'); //"今天是：618"
 }
 getOuter1();
 
@@ -29,8 +29,8 @@ function getOuter2() {
     return getDate;     //外部函数返回
 }
 var today = getOuter2();
-today('今天是：');   //"今天是：815"
-today('明天不是：');   //"明天不是：815"
+today('今天是：');   //"今天是：618"
+today('明天不是：');   //"明天不是：618"
 
 // 3:变量或参数不会被垃圾回收机制回收
 /*
